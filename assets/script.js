@@ -46,8 +46,8 @@ for (i = 0; i < timeBlocks.length; i++) {
 // WHEN I click the save button for that timeblock -event listener
 var saveBtn = $(".saveBtn");
 saveBtn.on("click", function () {
-  console.log($(this).siblings("textarea").val());
-  console.log($(this).siblings("div").text());
+  //   console.log($(this).siblings("textarea").val());
+  //   console.log($(this).siblings("div").text());
   var textBox = $(this).siblings("textarea").val();
   var timeData = $(this).siblings("div").text();
   localStorage.setItem(timeData, textBox);

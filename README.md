@@ -8,4 +8,8 @@ MomentJS was utilized to display the current day upon page load / refresh and Mo
 
 # Link to Application
 
+https://jakeeis24.github.io/Work-Day-Planner/
+
 # Screenshot
+
+![](./assets/work-planner-pic.jpg)
